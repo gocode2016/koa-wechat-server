@@ -1,0 +1,30 @@
+{
+  "name": "koa-wechat-server",
+  "version": "1.0.0",
+  "description": "微信公众号模板发送koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janninaweigal/koa-wechat-server.git"
+  },
+  "keywords": [
+    "微信公众号模板发送koa"
+  ],
+  "author": "linbin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janninaweigal/koa-wechat-server/issues"
+  },
+  "homepage": "https://github.com/janninaweigal/koa-wechat-server#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.1.10"
+  }
+}
