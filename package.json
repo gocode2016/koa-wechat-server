@@ -4,7 +4,8 @@
   "description": "微信公众号模板发送koa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,12 @@
   },
   "homepage": "https://github.com/janninaweigal/koa-wechat-server#readme",
   "dependencies": {
+    "bcrypt": "^3.0.2",
+    "jsonwebtoken": "^8.4.0",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-jwt": "^3.5.1",
     "koa-router": "^7.4.0",
     "koa-session": "^5.10.0",
     "koa-static": "^5.0.0",

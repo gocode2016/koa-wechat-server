@@ -84,5 +84,18 @@ class Db{
             })
         })
     }
+    findOne(collectionName,json){
+        return new Promise((resolve,reject)=>{
+            this.connect().then(function(db){
+                db.collection(collectionName).findOne(json,(err,result)=>{
+                    if(err){
+                        reject(err)
+                    }else{
+                        resolve(result)
+                    }
+                });
+            })
+        })
+    }
 }
 module.exports=Db.getInstance();
